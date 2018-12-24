@@ -4,9 +4,9 @@ Docker setup for hosting pwnables
 
 1) Install docker, ./prepare_docker.sh
 
-2) Change name of challenge in docker-compose.yml, ctf_name => ctf_whatever
+2) Change port and name of challenge in docker-compose.yml, ctf_name => ctf_whatever
 
-3) Change port to whatever in ctf.xinetd
+3) Change port in ctf.xinetd to the one which you have set to in the previous step
 
 4) Add a 'flag' file with the flag in it
 
